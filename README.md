@@ -38,26 +38,26 @@ This project explores the Mall Customers dataset through Exploratory Data Analys
   * Weak linear correlations overall
   * Reinforces need for clustering (non-linear separation)
 ### Machine Learning Model: K-Means Clustering
-Feature Selection:
-Baseline: Annual Income & Spending Score
-Extended: Age, Income, and Spending Score
-Model Selection:
-Evaluated k = 2–10 using Elbow and Silhouette Score
-Chosen k based on peak silhouette (often k=5 for this dataset)
-Results:
-Segments identified (example labels):
-Cluster 0: Low income, low spend → At-Risk
-Cluster 1: High income, low spend → Potential Upsell
-Cluster 2: Mid income, mid spend → Core Customers
-Cluster 3: Low income, high spend → Value Shoppers
-Cluster 4: High income, high spend → VIP / Premium
-Business Value:
-Marketing teams can target Potential Upsell customers with promotions
-Loyalty programs can retain VIPs
-Budget products can be directed toward Value Shoppers
+* Feature Selection:
+ * Baseline: Annual Income & Spending Score
+ * Extended: Age, Income, and Spending Score
+* Model Selection:
+ * Evaluated k = 2–10 using Elbow and Silhouette Score
+ * Chosen k based on peak silhouette (often k=5 for this dataset)
+* Results:
+ * Segments identified (example labels):
+  * Cluster 0: Low income, low spend → At-Risk
+  * Cluster 1: High income, low spend → Potential Upsell
+  * Cluster 2: Mid income, mid spend → Core Customers
+  * Cluster 3: Low income, high spend → Value Shoppers
+  * Cluster 4: High income, high spend → VIP / Premium
+* Business Value:
+  * Marketing teams can target Potential Upsell customers with promotions
+  * Loyalty programs can retain VIPs
+  * Budget products can be directed toward Value Shoppers
 ### Visualizations
-Age, Income, and Spending distributions
-Gender breakdown
-Scatterplots (Income vs Spending, Age vs Spending)
-Correlation heatmap
-K-Means clusters with centroids
+* Age, Income, and Spending distributions
+* Gender breakdown
+* Scatterplots (Income vs Spending, Age vs Spending)
+* Correlation heatmap
+* K-Means clusters with centroids
