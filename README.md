@@ -5,14 +5,14 @@
 ### Project Overview
 This project explores the Mall Customers dataset through Exploratory Data Analysis (EDA) and applies K-Means clustering to segment customers based on their spending behavior. The goal is to uncover actionable insights into customer groups and demonstrate practical skills in Python, data visualization, and unsupervised learning.
 ### Objectives
-1. Perform EDA using matplotlib and seaborn:
-* Analyze demographic and financial variables
-* Visualize relationships between income, spending, and age
-* Detect potential groupings from the data visually
-2. Build a K-Means clustering model:
-* Select optimal number of clusters using Elbow & Silhouette methods
-* Assign customers to clusters
-* Interpret clusters into business-friendly customer segments
+* Perform EDA using matplotlib and seaborn:
+ * Analyze demographic and financial variables
+ * Visualize relationships between income, spending, and age
+ * Detect potential groupings from the data visually
+*Build a K-Means clustering model:
+ * Select optimal number of clusters using Elbow & Silhouette methods
+ * Assign customers to clusters
+ * Interpret clusters into business-friendly customer segments
 ### Dataset
 * Mall_Customers.csv
 * CustomerID: Unique identifier
