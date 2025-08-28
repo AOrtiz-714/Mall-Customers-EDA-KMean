@@ -1,4 +1,4 @@
-# Mall-Customers-EDA-KMean
+# Mall-Customers-EDA-KMeans
 ## Exploratory Data Analysiss and  KMeans Clustering of Mall Customers
 
 ## Mall Customers — EDA & Clustering
